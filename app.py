@@ -9,7 +9,7 @@ from paddleocr import PaddleOCR
 ocr = PaddleOCR(use_angle_cls=True, lang='en')
 
 # Load the trained YOLOv8 model
-model = YOLO('C:\\Users\\kanak\\OneDrive\\Desktop\\Final\\best (2).pt')
+model = YOLO('best (2).pt')
 
 # List of class names
 class_names = ['Label', 'Product', 'Quantity', 'brand', 'detectionofpackage', 'flavor', 'other_info']
@@ -81,12 +81,12 @@ st.title("Product Information Extractor")
 
 # List of predefined images
 image_options = {
-    "Image 1": "C:\\Users\\kanak\\OneDrive\\Desktop\\Final\\try\\5.jpg",
-    "Image 2": "C:\\Users\\kanak\\OneDrive\\Desktop\\Final\\try\\2.jpg",
-    "Image 3": "C:\\Users\\kanak\\OneDrive\\Desktop\\Final\\try\\3.jpg",
-    "Image 4": "C:\\Users\\kanak\\OneDrive\\Desktop\\Final\\try\\4.jpg",
-    "Image 5": "C:\\Users\\kanak\\OneDrive\\Desktop\\Final\\try\\1.png",
-    "Image 6": "C:\\Users\\kanak\\OneDrive\\Desktop\\Final\\try\\6.jpg",
+    "Image 1": "5.jpg",
+    "Image 2": "2.jpg",
+    "Image 3": "3.jpg",
+    "Image 4": "4.jpg",
+    "Image 5": "1.png",
+    "Image 6": "6.jpg",
 }
 
 # Dropdown for selecting images
