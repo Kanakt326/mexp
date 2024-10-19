@@ -5,5 +5,5 @@ ultralytics
 paddlepaddle
 paddleocr
 albumentations  
-pip install protobuf==3.20.*
-pip install numpy==1.24.4 paddleocr imgaug
+protobuf==3.20.*
+numpy==1.24.4 paddleocr imgaug
