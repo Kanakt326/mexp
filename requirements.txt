@@ -4,3 +4,4 @@ numpy==1.23.5
 ultralytics==8.0.120  # (or latest version that supports Python 3.12)
 paddlepaddle==2.5.0
 paddleocr==2.6.0.1
+albumentations
