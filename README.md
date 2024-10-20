@@ -1,4 +1,4 @@
-![Screenshot 2024-10-20 040324](https://github.com/user-attachments/assets/d8887593-93f6-4cba-bf62-742967ee3d85)Expiry & Manufacturing Date Validation (YOLOv5 + PaddleOCR)
+Expiry & Manufacturing Date Validation (YOLOv5 + PaddleOCR)
 This project focuses on validating Expiry and Manufacturing dates from product packaging. The system employs a YOLOv5 model to detect regions on packaging that may contain date information, followed by detailed text extraction using PaddleOCR. Post-extraction, the dates are validated using regular expressions (regex) to ensure they conform to standard formats.
 Requirements.
 
