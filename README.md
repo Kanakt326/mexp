@@ -11,8 +11,12 @@ To run the project, you will need the following dependencies:
 * OpenCV
 * Numpy
 * Regex (re)
+
   Install the required Python packages via requirements.txt:
   pip install -r requirements.txt
+  Run the Streamlit App
+  streamlit run app.py
+
 
 Key Libraries:
 YOLOv5: For object detection, identifying potential regions containing date information on packaging.
@@ -40,7 +44,7 @@ YYYY-MM-DD (e.g., 2023-12-25)
 MMM DD, YYYY (e.g., Dec 25, 2023)
 The regex expressions for these formats are designed to ensure only valid dates are captured.
 ![image](https://github.com/user-attachments/assets/34a30bc1-5664-4d9e-ba52-1e07b516039d)
-
+   
 
 
 
