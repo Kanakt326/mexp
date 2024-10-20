@@ -14,11 +14,11 @@ To run the project, you will need the following dependencies:
 
   Install the required Python packages via requirements.txt:
   
-  pip install -r requirements.txt
+  * pip install -r requirements.txt
   
   Run the Streamlit App
   
-  streamlit run app.py
+  * streamlit run app.py
 
 
 Key Libraries:
