@@ -13,8 +13,11 @@ To run the project, you will need the following dependencies:
 * Regex (re)
 
   Install the required Python packages via requirements.txt:
+  
   pip install -r requirements.txt
+  
   Run the Streamlit App
+  
   streamlit run app.py
 
 
