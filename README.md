@@ -39,6 +39,8 @@ MM/DD/YYYY (e.g., 12/25/2023)
 YYYY-MM-DD (e.g., 2023-12-25)
 MMM DD, YYYY (e.g., Dec 25, 2023)
 The regex expressions for these formats are designed to ensure only valid dates are captured.
-![Screenshot 2024-10-20 040324](https://github.com/user-attachments/assets/10d1a9ac-62c5-45a4-996b-aa1504335f82)
+![image](https://github.com/user-attachments/assets/34a30bc1-5664-4d9e-ba52-1e07b516039d)
+
+
 
 
